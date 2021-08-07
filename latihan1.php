@@ -15,6 +15,7 @@ $mahasiswa = query("SELECT  * FROM mahasiswa");
 </head>
 
 <body>
+  <a href="tambah.php">Tambah data mahasiswa</a>
   <table border="1" cellpadding="10" cellspacing="0">
     <tr>
       <th>id</th>
@@ -31,6 +32,7 @@ $mahasiswa = query("SELECT  * FROM mahasiswa");
       <td>
         <a href="detail.php?id=<?= $m['id']; ?>">lihat detail</a>
       </td>
+
 
 
     </tr>
